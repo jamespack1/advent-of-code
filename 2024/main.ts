@@ -1,8 +1,5 @@
-export function add(a: number, b: number): number {
-  return a + b;
-}
+import { day1 } from "./day-1/day-1.ts";
 
-// Learn more at https://docs.deno.com/runtime/manual/examples/module_metadata#concepts
 if (import.meta.main) {
-  console.log("Add 2 + 3 =", add(2, 3));
+  day1();
 }
